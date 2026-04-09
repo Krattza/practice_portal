@@ -1,0 +1,29 @@
+<ref *1> Resend {
+  key: 're_4gkAEXTv_3gMrP46sgimaPDFVSHteyPoP',
+  apiKeys: ApiKeys { resend: [Circular *1] },
+  segments: Segments { resend: [Circular *1] },
+  audiences: Segments { resend: [Circular *1] },
+  batch: Batch { resend: [Circular *1] },
+  broadcasts: Broadcasts { resend: [Circular *1] },
+  contacts: Contacts {
+    resend: [Circular *1],
+    topics: ContactTopics { resend: [Circular *1] },
+    segments: ContactSegments { resend: [Circular *1] }
+  },
+  contactProperties: ContactProperties { resend: [Circular *1] },
+  domains: Domains { resend: [Circular *1] },
+  emails: Emails {
+    resend: [Circular *1],
+    attachments: Attachments$1 { resend: [Circular *1] },
+    receiving: Receiving { resend: [Circular *1], attachments: [Attachments] }
+  },
+  logs: Logs { resend: [Circular *1] },
+  webhooks: Webhooks { resend: [Circular *1] },
+  templates: Templates { resend: [Circular *1] },
+  topics: Topics { resend: [Circular *1] },
+  headers: Headers {
+    Authorization: 'Bearer re_4gkAEXTv_3gMrP46sgimaPDFVSHteyPoP',
+    'User-Agent': 'resend-node:6.10.0',
+    'Content-Type': 'application/json'
+  }
+}

@@ -1,0 +1,9 @@
+backend\node_modules
+backend\src\.env.example
+backend\.env
+backend\factorysync.db
+
+backend\factorysync.db-wal
+backend\factorysync.db-shm
+
+backend\package-lock.json
