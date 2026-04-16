@@ -57,6 +57,7 @@ export const registerSchema = z
       .string()
       .regex(/^\d{4}-\d{2}-\d{2}$/)
       .refine(isAdult, "User must be at least 18"),
+      
     role: z.enum(['citizen', 'department', 'super_admin']),
     state: z.string().trim().min(2),
     district: z.string().trim().min(2),

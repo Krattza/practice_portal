@@ -1,11 +1,11 @@
-CREATE TABLE IF NOT EXISTS departments (
-  id          TEXT PRIMARY KEY,
-  name        TEXT NOT NULL UNIQUE,
-  code        TEXT NOT NULL UNIQUE,
-  description TEXT,
-  is_active   INTEGER NOT NULL DEFAULT 1
-              CHECK (is_active IN (0, 1)),
+-- CREATE TABLE IF NOT EXISTS departments (
+--   id          TEXT PRIMARY KEY,
+--   name        TEXT NOT NULL UNIQUE,
+--   code        TEXT NOT NULL UNIQUE,
+--   description TEXT,
+--   is_active   INTEGER NOT NULL DEFAULT 1
+--               CHECK (is_active IN (0, 1)),
 
-  created_at  TEXT NOT NULL DEFAULT (datetime('now')),
-  updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
-);
+--   created_at  TEXT NOT NULL DEFAULT (datetime('now')),
+--   updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
+-- );
